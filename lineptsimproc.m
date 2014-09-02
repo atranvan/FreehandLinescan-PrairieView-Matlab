@@ -55,8 +55,10 @@ function lineptsimproc(PVimage)
 
     
 
-    xline=contour(:,1);
-    yline=contour(:,2);
+    xline2=contour(:,1);
+    yline2=contour(:,2);
+    xline=xline2(1:(size(xline2)+1)/2);
+    yline=yline2(1:(size(xline2)+1)/2);
     xline=smooth(xline,1);
     yline=smooth(yline,1);
     figure
@@ -68,7 +70,7 @@ function lineptsimproc(PVimage)
    
     plot(yline,xline,'c')
 
-    pts=[yline/d1,xline/d2];
+    pts=[xline/d1,yline/d2];
     xmlfromvector(pts)
 end
 
