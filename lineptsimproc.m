@@ -70,7 +70,7 @@ function lineptsimproc(PVimage)
    
     plot(yline,xline,'c')
 
-    pts=[xline/d1,yline/d2];
+    pts=[yline/d1,xline/d2];
     xmlfromvector(pts)
 end
 
