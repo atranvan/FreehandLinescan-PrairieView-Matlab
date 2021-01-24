@@ -2,7 +2,7 @@ FreehandLinescan-PrairieView-Matlab
 ===================================
 
 Interface PrairieView/Matlab to extract coordinates of longest line from image of dendrite, and update coordinates of freehand Linescan
-by Alex Tran-Van-Minh (alexandra.tran.van.minh@gmail.com), written using Matlab R2013b
+Written using Matlab R2013b
 
 INSTALLATION:
 Requirements: Matlab, Matlab Image Processing Toolbox, Matlab xml-io toolbox (http://www.mathworks.fr/matlabcentral/fileexchange/12907-xml-io-tools)
